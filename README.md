@@ -4,7 +4,7 @@
 
 *Describe, with your own words, what the project is about. Also, include in such a description the history of the project in terms of age, number of commits in the main branch, and number of collaborators.*
 
-
+Edison microservice is a project that contains a collection of libraries that help developers create JVM microservices faster. JVM (Java Virtual Machine) microservices are often smaller independent pieces of a larger application designed to do one thing well. They are written in java and can be run on any platform supporting the JVM. Their first release was on April 11 2017. The project has a total of 53 contributors with 1880 (recorded on 29/06/2023) commits on the main branch. 
 
 **Answer:**
 
