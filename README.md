@@ -61,6 +61,7 @@ In this project we see that different checks are performed depending on the soft
 >How are the release notes organized?*
 
 **Answer:**
+The release notes are listed on the tags page. The project has a total of 73 tags with each tag being a newly released version. Release notes are organized with changes listed in bullet points. Every bullet point typically represents a specific change or update made in the project. The format includes the action, description, contributor and a reference to the specific pull request or issue. Any user that collaborated on a version is also listed  underneath. Each release note contains an asset with the source code of that version. This consistent format allows users and stakeholders to understand updates and progress made during the project.
 
 **Q8)**
 >What is the license of the project? Explain if it’s permissive or restrictive.
