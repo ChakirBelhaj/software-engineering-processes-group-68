@@ -66,6 +66,7 @@ The initial word of the commit messages are stating the activity that is being d
 > How are the issues organized?
 
 **Answer:**
+Each issue is partitioned in two statuses, open and closed, where each status has it’s own tab with the given issues, some issues are also assigned with a label to state the type of the issue such as: “enhancement”, “bug”, “missing docs”. The description of each label resides in a separate label tab. The text format of the stated issue are plain description of the issue. Some issues also comes with a mile stone version number.
 
 **Q4)**
 >Are there instructions on how to contribute to the project? If yes, explain them.
