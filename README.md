@@ -106,9 +106,9 @@ Each issue is partitioned in two statuses, open and closed, where each status ha
 OWASP invites users to contribute through 3 different methods.
 - Filing issues. A user can contribute by identifying missing content or errors in the project. Create an issue and explain what you think is missing or needs improvement, along with suggestions on where it could be added.
 - Creating a pull request (PR). This is a direct contribution to the project. OWASP mentions before creating a PR, it's recommended to first create an issue to discuss the changes you intend to make. Small modifications like correcting typos may not require an issue. When creating a PR, OWASP asks for the code to meet the following requirements:
-****************8bullet*******Code compliance: The code must adhere to the configured Checkstyle and PMD rules.
-****************8bullet*******Testing: All new and changed code should have corresponding unit and/or integration tests. New and changed lessons must have integration tests.
-****************8bullet*******Status checks: The status checks should pass for your last commit.
+- Code compliance: The code must adhere to the configured Checkstyle and PMD rules.
+- Testing: All new and changed code should have corresponding unit and/or integration tests. New and changed lessons must have integration tests.
+- Status checks: The status checks should pass for your last commit.
 - Promote the project. Users can contribute by giving the project a star on GitHub or sharing information about it via social media to help spread the word.
 
 ## **[Q5]** Automated Checks on Commit
