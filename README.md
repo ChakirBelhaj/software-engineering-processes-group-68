@@ -1,9 +1,3 @@
-
-
-[toc]
-
-
-
 # OWASP - wrong secrets
 
 ## **[Q1]** Intro
@@ -20,8 +14,7 @@ OWASP Wrong Secrets is a vulnerable/p0wnable app that is focused on secrets mana
 
 **Answer:**
 
-Looking at the comments on the commit messages we observe that all merge pull requests are tracked. GitHub supports referencing issues and pull requests using "#" followed by the issue/PR number which this project makes use of. This is consistent throughout the project. Most messages start with a verb describing the kind of action that was performed or change that was made. Some of these words are “fix” “update” “tweak” and “replace”. Messages are kept short and since this project has many collaborators names of the committer are publicly visible. 
-
+Looking at the comments on the commit messages we observe that all merge pull requests are tracked. GitHub supports referencing issues and pull requests using "#" followed by the issue/PR number which this project makes use of. This is consistent throughout the project. Most messages start with a verb describing the kind of action that was performed or change that was made. Some of these words are “fix” “update” “tweak” and “replace”. Messages are kept short and since this project has many collaborators names of the committer are publicly visible.
 
 
 ## **[Q3]** Issues
