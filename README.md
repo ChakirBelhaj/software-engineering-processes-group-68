@@ -77,6 +77,12 @@ Each issue is partitioned in two statuses, open and closed, where each status ha
 > What automated checks do exist on a commit pushed to the main branch?
 
 **Answer:**
+This github repository performs the following automated checks: 
+Gradle Build:
+The build-main.yml and build_2.7.x.yml configuration file shows that the repository uses GitHub Actions to build the main branch for all versions other than 2.7.x and vice versa, respectively.. When changes are pushed to the main branch or a pull request is opened against the main branch, it triggers a job that sets up Java 17 on an Ubuntu machine, grants execute permissions for gradlew, builds the project with Gradle using the ./gradlew check command. This command triggers a series of tasks within the Gradle build system to ensure the integrity of the codebase. The tasks involve compiling the source code, running unit tests, and performing static code analysis. Thereafter it uploads a JaCoCo report.
+CodeQL Analysis (Java):
+The codeql-analysis.yml configuration file indicates that the repository uses CodeQL analysis for two languages: Java and JavaScript. The file states that this action does not run for the dependabot[bot] and that the job is done on an Ubuntu machine.
+It performs CodeQL initialization and uses Autobuild to automatically build any compiled languages. If Autobuild fails, it's suggested to manually run the build. After these steps, it performs CodeQL Analysis.
 
 **Q6)**
 >In the context of pull requests, what automated checks are done (consider checks on commits and comments posted in the pull requests by automated tools and bots)?
