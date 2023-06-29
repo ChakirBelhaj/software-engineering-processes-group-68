@@ -86,6 +86,13 @@ The initial word of the commit messages are stating the activity that is being d
 >How are the release notes organized?*
 
 **Answer:**
+For each version it states the version number, Commit ID.
+A section called “What’s changed” lists the changes in bullet points format. And a section of who contributed, The format of each change (bullet point) is as follow: 
+<Bump> <specific dependency that is being updated> <version from old version to new version> <location where the update is taken place> by @dependabot in #<pull request number>
+Example: Bump versions.spring_boot from 2.7.1 to 2.7.2 in /gradle by @dependabot in #501
+The @dependabot automates the process of keeping dependencies up to date.
+Some versions has a section called the “Assets” which refers to resources such as files, which offers the user to download and utilize such resources. 
+Additionally, the latest release is labeled with “latest” and some releases has a label “pre-release”.
 
 **Q8)**
 >What is the license of the project? Explain if it’s permissive or restrictive.
