@@ -92,6 +92,6 @@ Each issue is partitioned in two statuses, open and closed, where each status ha
 >What is the license of the project? Explain if it’s permissive or restrictive.
 
 **Answer:**
-
+This project makes use of the Apache License 2.0 which is a permissive license whose main conditions require preservation of copyright and license notices. Permissive licenses provide more freedom in how users can modify and distribute the software. When conditions are met, this license allows users to freely modify and distribute the software for both private and commercial use. However, this license permits users to use any trademarks associated with the software. A limitation on liability and warranty is also included.
 
 
