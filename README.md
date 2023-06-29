@@ -82,6 +82,11 @@ Each issue is partitioned in two statuses, open and closed, where each status ha
 >In the context of pull requests, what automated checks are done (consider checks on commits and comments posted in the pull requests by automated tools and bots)?
 
 **Answer:**
+The following automated checks are performed:
+
+ Dependency Update Check: The presence of Dependabot in the pull requests indicate an automated check for updating dependencies. This indicates that Dependabot performs checks to ensure the project's dependencies are up-to-date.
+Codecov Coverage Analysis: The pull requests we looked at contain a comment from codecov-commenter bot that creates a Codecov Report. The report assesses the impact of the pull request on code coverage. It states that merging the pull request will not affect coverage. However, it advises uploading reports for accurate results, indicating that Codecov performs automated checks to analyze code coverage metrics and provide insights into the extent of testing conducted.
+Gradle Build and CodeQL Analysis: These automated tests are performed on each commit, details which can be found in the answer for question: What automated checks do exist on a commit pushed to the main branch?
 
 **Q7)**
 >How are the release notes organized?*
