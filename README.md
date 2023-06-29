@@ -1,6 +1,12 @@
+
+
+[toc]
+
+
+
 # OWASP - wrong secrets
 
-**Q1)**
+## **[Q1]** Intro
 
 > Describe, with your own words, what the project is about. Also, include in such a description the history of the project in terms of age, number of commits in the main branch, and number of collaborators.
 
@@ -8,7 +14,7 @@
 
 OWASP Wrong Secrets is a vulnerable/p0wnable app that is focused on secrets management. It can be used as a stand-alone game, as part of security trainings, awareness demos, as a test environment for secret detection tools, and bad practice detection tooling. The very first commit to the project was made on 16/8/2020 which means this project is almost 2 years and 10 months old. On the history page is briefly described when the first project version was available which is at 30/11/2021. There are 26 collaborators on the project whereof 3 are bots with the main branch having 3022 commits as of 18/6/2023.
 
-**Q2)**
+## **[Q2]** Commit Best Practices
 
 > What are the practices in terms of commit messages (consider only commits on the main branch).
 
@@ -18,7 +24,7 @@ Looking at the comments on the commit messages we observe that all merge pull re
 
 
 
-**Q3)**
+## **[Q3]** Issues
 
 > How are the issues organized?
 
@@ -28,7 +34,8 @@ The issues on the on the OWASP GitHub page are organized/labeled into different 
 
 
 
-**Q4)**
+## **[Q4]** Contribute Rules
+
 >Are there instructions on how to contribute to the project? If yes, explain them.
 
 **Answer:**
@@ -45,25 +52,29 @@ OWASP invites users to contribute through 3 different methods. - Filing issues. 
 
 
 
-**Q5)**
+## **[Q5]** Automated Checks on Commit
+
 > What automated checks do exist on a commit pushed to the main branch?
 
 **Answer:**
 Depending on what type of commitment is made we observe that different automated checks are performed. A few automated checks that are seen in almost every commit are ‘CodeQL / Analyze’, ‘Dead Link Checker / linkChecker’ and ‘Docker container test / Container test’. Each of these automated checks test different functionalities or characteristics on the pushed commit. For example, ‘CodeQL / Analyze’ runs GitHub's industry-leading semantic code analysis engine against a repository's source code to find security vulnerabilities. It then automatically uploads the results to GitHub so they can be displayed in the repository's security tab1.
 
-**Q6)**
+## **[Q6]** Automated Checks on PULL Request
+
 >In the context of pull requests, what automated checks are done (consider checks on commits and comments posted in the pull requests by automated tools and bots)?
 
 **Answer:**
 In this project we see that different checks are performed depending on the software version and type of pull request. One of the collaborators of this project is Dependabot, which is a bot mainly used to find and fix vulnerable dependencies in a repository. Observing its activity on the pull request page, Dependabot is concerned with bump pull requests that update the version of a package in a repository. Automated checks that are performed during such a request are tests on java checkstyle and spotbugs,  linkChecker, minikube script and docker container. Various other checks exist throughout the project.
 
-**Q7)**
+## **[Q7]** Release Notes
+
 >How are the release notes organized?*
 
 **Answer:**
 The release notes are listed on the tags page. The project has a total of 73 tags with each tag being a newly released version. Release notes are organized with changes listed in bullet points. Every bullet point typically represents a specific change or update made in the project. The format includes the action, description, contributor and a reference to the specific pull request or issue. Any user that collaborated on a version is also listed  underneath. Each release note contains an asset with the source code of that version. This consistent format allows users and stakeholders to understand updates and progress made during the project.
 
-**Q8)**
+## **[Q8]** License
+
 >What is the license of the project? Explain if it’s permissive or restrictive.
 
 **Answer:**
@@ -71,45 +82,50 @@ This project makes use of the GNU Affero General Public License v3.0 (AGPLv3) wh
 
 # Edison microservice
 
-**Q1)**
+## **[Q1]** Intro
 
 > Describe, with your own words, what the project is about. Also, include in such a description the history of the project in terms of age, number of commits in the main branch, and number of collaborators.
 
 **Answer:**
 
-**Q2)**
+## **[Q2]** Commit Best Practices
 
 > What are the practices in terms of commit messages (consider only commits on the main branch).
 
 **Answer:**
 
-**Q3)**
+## **[Q3]** Issues
 
 > How are the issues organized?
 
 **Answer:**
 
-**Q4)**
+## **[Q4]** Contribute Rules
+
 >Are there instructions on how to contribute to the project? If yes, explain them.
 
 **Answer:**
 
-**Q5)**
+## **[Q5]** Automated Checks on Commit
+
 > What automated checks do exist on a commit pushed to the main branch?
 
 **Answer:**
 
-**Q6)**
+## **[Q6]** Automated Checks on Pull Request
+
 >In the context of pull requests, what automated checks are done (consider checks on commits and comments posted in the pull requests by automated tools and bots)?
 
 **Answer:**
 
-**Q7)**
+## **[Q7]** Release Notes
+
 >How are the release notes organized?*
 
 **Answer:**
 
-**Q8)**
+## **[Q8]** License
+
 >What is the license of the project? Explain if it’s permissive or restrictive.
 
 **Answer:**
