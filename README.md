@@ -27,6 +27,7 @@
 > What automated checks do exist on a commit pushed to the main branch?
 
 **Answer:**
+Depending on what type of commitment is made we observe that different automated checks are performed. A few automated checks that are seen in almost every commit are ‘CodeQL / Analyze’, ‘Dead Link Checker / linkChecker’ and ‘Docker container test / Container test’. Each of these automated checks test different functionalities or characteristics on the pushed commit. For example, ‘CodeQL / Analyze’ runs GitHub's industry-leading semantic code analysis engine against a repository's source code to find security vulnerabilities. It then automatically uploads the results to GitHub so they can be displayed in the repository's security tab1.
 
 **Q6)**
 >In the context of pull requests, what automated checks are done (consider checks on commits and comments posted in the pull requests by automated tools and bots)?
