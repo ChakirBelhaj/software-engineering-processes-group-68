@@ -158,3 +158,16 @@ Additionally, the latest release is labeled with “latest” and some releases 
 This project makes use of the Apache License 2.0 which is a permissive license whose main conditions require preservation of copyright and license notices. Permissive licenses provide more freedom in how users can modify and distribute the software. When conditions are met, this license allows users to freely modify and distribute the software for both private and commercial use. However, this license permits users to use any trademarks associated with the software. A limitation on liability and warranty is also included.
 
 
+Individual statement of contribution
+
+Muhammad Butt
+Our team really stuck to the rules and we all did our part for this project. We talked a lot to make sure everyone had their share of the work. I worked hard on this.
+
+Chakir Belhaj
+We followed the project rules and everyone did their part. We made sure to talk things through so the work was split up fairly. I put a lot of effort into this.
+
+Yoad van Praag
+Our team went by the book and everyone put in equal effort for this project. We kept in touch regularly to make sure the work was shared out equally. I really gave it my all.
+
+Stephen Kwan
+We did things by the rules and everyone pulled their weight on this project. We talked regularly to make sure everyone did their share. I was really committed to this.
