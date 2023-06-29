@@ -55,6 +55,7 @@ Depending on what type of commitment is made we observe that different automated
 >In the context of pull requests, what automated checks are done (consider checks on commits and comments posted in the pull requests by automated tools and bots)?
 
 **Answer:**
+In this project we see that different checks are performed depending on the software version and type of pull request. One of the collaborators of this project is Dependabot, which is a bot mainly used to find and fix vulnerable dependencies in a repository. Observing its activity on the pull request page, Dependabot is concerned with bump pull requests that update the version of a package in a repository. Automated checks that are performed during such a request are tests on java checkstyle and spotbugs,  linkChecker, minikube script and docker container. Various other checks exist throughout the project.
 
 **Q7)**
 >How are the release notes organized?*
