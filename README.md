@@ -67,6 +67,7 @@ The release notes are listed on the tags page. The project has a total of 73 tag
 >What is the license of the project? Explain if it’s permissive or restrictive.
 
 **Answer:**
+This project makes use of the GNU Affero General Public License v3.0 (AGPLv3) which is a free copyleft license for software and other related work. Copyleft licenses are restrictive and AGPLv3 is considered a strong copyleft license meaning it significantly limits on how the software can be used, modified and distributed. Software that uses AGPLv3-licensed code must be open source and released under the same license. When strict conditions are met, users are allowed to modify and distribute the software for both private and commercial use. However, this license mentions that users have limited liability and warranty. This means that the software authors are not responsible for any damages or losses that arose from the use of the software, and provide no guarantees regarding performance or suitability.
 
 # Edison microservice
 
