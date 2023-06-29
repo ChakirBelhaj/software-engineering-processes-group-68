@@ -59,6 +59,7 @@ Edison microservice is a project that contains a collection of libraries that he
 > What are the practices in terms of commit messages (consider only commits on the main branch).
 
 **Answer:**
+The initial word of the commit messages are stating the activity that is being done such as: “fix”, “release”, “update”, “Bump”. After it is followed by a small description of the given activity, some messages contains a “#” followed by a number at the end to refer to an issue or pull request within the same repository. Every commit message also shows the person who committed and whether if all the tests that is being runned is successful or not, the tests consists of: CodeQL / Analyze (Java) (push), CodeQL / Analyze (JavaScript) (push), and Build / build (push).  Each commit is also assigned with a distinct identifier called the SHA (Secure Hash algorithm) i.e., Commit ID. 
 
 **Q3)**
 
