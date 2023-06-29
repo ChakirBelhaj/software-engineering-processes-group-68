@@ -24,6 +24,10 @@ Looking at the comments on the commit messages we observe that all merge pull re
 
 **Answer:**
 
+The issues on the on the OWASP GitHub page are organized/labeled into different categories such as “Open”, “Closed”, “Bug”, “Enhancement”, “Help Wanted”, “Invalid”, “Question”, “Wontfix” and more. The issues are marked ‘to do’, ‘in progress’ or ‘done’ with 32 issues are yet to be started, 12 are in progress and 74 are currently done.
+
+
+
 **Q4)**
 >Are there instructions on how to contribute to the project? If yes, explain them.
 
